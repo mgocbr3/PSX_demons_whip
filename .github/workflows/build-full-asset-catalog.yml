@@ -35,7 +35,6 @@ jobs:
         with:
           path: workspace/demons
           fetch-depth: 1
-          filter: blob:none
           sparse-checkout-cone-mode: false
           sparse-checkout: |
             /.github/

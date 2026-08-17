@@ -17,6 +17,8 @@ env:
   CATALOG_OUTPUT: /tmp/demons-whip-asset-catalog
   DELIVERY_ZIP: /tmp/Demons_Whip_Asset_Catalog_FULL.zip
   PYTHONUNBUFFERED: "1"
+  LIBGL_ALWAYS_SOFTWARE: "1"
+  MESA_GL_VERSION_OVERRIDE: "3.3"
 
 concurrency:
   group: demons-whip-full-asset-catalog-${{ github.ref }}
@@ -53,10 +55,20 @@ jobs:
           sudo apt-get update
           sudo DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
             blender libreoffice-writer ffmpeg fonts-dejavu-core fontconfig \
-            poppler-utils libgl1-mesa-dri libegl1 libglx-mesa0
+            poppler-utils libgl1-mesa-dri libegl1 libglx-mesa0 \
+            python3-numpy xvfb xauth
           sudo apt-get clean
           sudo rm -rf /var/lib/apt/lists/*
+
+          OCIO_CONFIG="$(find /usr/share/blender -type f -path '*/colormanagement/config.ocio' | head -n 1 || true)"
+          if [ -n "$OCIO_CONFIG" ]; then
+            echo "OCIO=$OCIO_CONFIG" >> "$GITHUB_ENV"
+            echo "Using OCIO config: $OCIO_CONFIG"
+          fi
+
           blender --version | head -n 2
+          xvfb-run -a blender --background --factory-startup --python-expr \
+            "import numpy; print('BLENDER_NUMPY_OK', numpy.__version__)"
           libreoffice --version
           ffmpeg -version | head -n 1
           df -h
@@ -71,12 +83,12 @@ jobs:
       - name: Install Python dependencies and run tests
         run: |
           python -m pip install --upgrade pip
-          python -m pip install -r workspace/demons/tools/asset_catalog/requirements.txt
+          python -m pip install -r workspace/demons/tools/asset_catalog/requirements.txt brotli
           cd workspace/demons/tools/asset_catalog
           pytest -q
 
       - name: Generate Word, PDF, inventories and QA package
-        run: bash workspace/demons/.catalog_bootstrap/ci_generate.sh
+        run: xvfb-run -a -s "-screen 0 1280x1024x24" bash workspace/demons/.catalog_bootstrap/ci_generate.sh
 
       - name: Publish generated documents to branch
         id: publish
@@ -98,6 +110,7 @@ jobs:
             /tmp/Demons_Whip_Asset_Catalog_FULL.zip
             /tmp/demons-whip-asset-catalog/build_complete.json
             /tmp/demons-whip-asset-catalog/data/validation_report.json
+            /tmp/demons-whip-asset-catalog/data/asset_inventory_full.csv
             /tmp/demons-whip-asset-catalog/qa/qa_summary.json
             /tmp/demons-whip-asset-catalog/qa/pdf_page_audit.csv
           if-no-files-found: error

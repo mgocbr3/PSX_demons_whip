@@ -21,3 +21,9 @@ build/
 00_Packs_Raw/Individual_Assets/
 00_Packs_Raw/Medieval/
 00_Packs_Raw/TownTileSet/
+
+# Large executable files
+*.exe
+*.pdb
+00_Packs_Raw/PSX Graveyard Demo/Engine/
+00_Packs_Raw/Cabin in the Woods DEMO/Windows/Engine/

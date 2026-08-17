@@ -22,7 +22,7 @@ env:
 
 concurrency:
   group: demons-whip-full-asset-catalog-${{ github.ref }}
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   build-catalog:
@@ -35,6 +35,7 @@ jobs:
         with:
           path: workspace/demons
           fetch-depth: 1
+          filter: blob:none
           sparse-checkout-cone-mode: false
           sparse-checkout: |
             /.github/
@@ -42,7 +43,7 @@ jobs:
             /00_Packs_Raw/
             /01_Assets_Organizados/
             /02_ConceptArt/
-            /03_Docs/
+            /03_Docs/superpowers/
             /Torment Textures/
             /tools/
             /DEMONS_WHIP_GDD_REBRAND_MASTER_v2.md

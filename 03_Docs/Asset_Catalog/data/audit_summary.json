@@ -1,0 +1,269 @@
+{
+  "generated_at": "2026-08-17T19:03:58+00:00",
+  "total_assets": 8344,
+  "total_size_bytes": 1273132143,
+  "by_origin": {
+    "NOVO": 4075,
+    "TEMPLATE": 4269
+  },
+  "by_kind": {
+    "AUDIO": 1022,
+    "FONT": 22,
+    "IMAGE_TEXTURE": 4824,
+    "MATERIAL_DATA": 2,
+    "MODEL_3D": 2473,
+    "VIDEO": 1
+  },
+  "by_origin_kind": [
+    {
+      "origin": "NOVO",
+      "kind": "IMAGE_TEXTURE",
+      "count": 2770
+    },
+    {
+      "origin": "NOVO",
+      "kind": "MATERIAL_DATA",
+      "count": 2
+    },
+    {
+      "origin": "NOVO",
+      "kind": "MODEL_3D",
+      "count": 1303
+    },
+    {
+      "origin": "TEMPLATE",
+      "kind": "AUDIO",
+      "count": 1022
+    },
+    {
+      "origin": "TEMPLATE",
+      "kind": "FONT",
+      "count": 22
+    },
+    {
+      "origin": "TEMPLATE",
+      "kind": "IMAGE_TEXTURE",
+      "count": 2054
+    },
+    {
+      "origin": "TEMPLATE",
+      "kind": "MODEL_3D",
+      "count": 1170
+    },
+    {
+      "origin": "TEMPLATE",
+      "kind": "VIDEO",
+      "count": 1
+    }
+  ],
+  "by_status": {
+    "ERROR": 2603,
+    "OK": 5717,
+    "PARTIAL": 24
+  },
+  "by_category": [
+    {
+      "origin": "NOVO",
+      "category": "Buildings",
+      "count": 7
+    },
+    {
+      "origin": "NOVO",
+      "category": "Characters",
+      "count": 32
+    },
+    {
+      "origin": "NOVO",
+      "category": "Concept Art",
+      "count": 31
+    },
+    {
+      "origin": "NOVO",
+      "category": "Dungeon",
+      "count": 470
+    },
+    {
+      "origin": "NOVO",
+      "category": "Enemies",
+      "count": 100
+    },
+    {
+      "origin": "NOVO",
+      "category": "Image Texture",
+      "count": 27
+    },
+    {
+      "origin": "NOVO",
+      "category": "Material Data",
+      "count": 2
+    },
+    {
+      "origin": "NOVO",
+      "category": "Model 3D",
+      "count": 72
+    },
+    {
+      "origin": "NOVO",
+      "category": "Mounts",
+      "count": 9
+    },
+    {
+      "origin": "NOVO",
+      "category": "Nature",
+      "count": 429
+    },
+    {
+      "origin": "NOVO",
+      "category": "Props",
+      "count": 194
+    },
+    {
+      "origin": "NOVO",
+      "category": "Textures",
+      "count": 487
+    },
+    {
+      "origin": "NOVO",
+      "category": "UI",
+      "count": 1
+    },
+    {
+      "origin": "NOVO",
+      "category": "Ui",
+      "count": 2072
+    },
+    {
+      "origin": "NOVO",
+      "category": "Vfx",
+      "count": 17
+    },
+    {
+      "origin": "NOVO",
+      "category": "Weapons",
+      "count": 125
+    },
+    {
+      "origin": "TEMPLATE",
+      "category": "Apple-Touch-Icon.Png",
+      "count": 1
+    },
+    {
+      "origin": "TEMPLATE",
+      "category": "Audio",
+      "count": 1022
+    },
+    {
+      "origin": "TEMPLATE",
+      "category": "Claudium",
+      "count": 41
+    },
+    {
+      "origin": "TEMPLATE",
+      "category": "Env",
+      "count": 39
+    },
+    {
+      "origin": "TEMPLATE",
+      "category": "Favicon-16X16.Png",
+      "count": 1
+    },
+    {
+      "origin": "TEMPLATE",
+      "category": "Favicon-32X32.Png",
+      "count": 1
+    },
+    {
+      "origin": "TEMPLATE",
+      "category": "Favicon.Ico",
+      "count": 1
+    },
+    {
+      "origin": "TEMPLATE",
+      "category": "Fonts",
+      "count": 22
+    },
+    {
+      "origin": "TEMPLATE",
+      "category": "Guide-Stills",
+      "count": 90
+    },
+    {
+      "origin": "TEMPLATE",
+      "category": "Home-Bg.Mp4",
+      "count": 1
+    },
+    {
+      "origin": "TEMPLATE",
+      "category": "Home-Bg.Png",
+      "count": 1
+    },
+    {
+      "origin": "TEMPLATE",
+      "category": "Icon-192.Png",
+      "count": 1
+    },
+    {
+      "origin": "TEMPLATE",
+      "category": "Icon-512.Png",
+      "count": 1
+    },
+    {
+      "origin": "TEMPLATE",
+      "category": "Loading-Screen.Jpg",
+      "count": 1
+    },
+    {
+      "origin": "TEMPLATE",
+      "category": "Map Art",
+      "count": 8
+    },
+    {
+      "origin": "TEMPLATE",
+      "category": "Map Bg",
+      "count": 15
+    },
+    {
+      "origin": "TEMPLATE",
+      "category": "Models",
+      "count": 1190
+    },
+    {
+      "origin": "TEMPLATE",
+      "category": "Textures",
+      "count": 141
+    },
+    {
+      "origin": "TEMPLATE",
+      "category": "Ui",
+      "count": 1672
+    },
+    {
+      "origin": "TEMPLATE",
+      "category": "Vfx",
+      "count": 16
+    },
+    {
+      "origin": "TEMPLATE",
+      "category": "Woc Logo Square.Webp",
+      "count": 1
+    },
+    {
+      "origin": "TEMPLATE",
+      "category": "Woc-Logo-Guide.Webp",
+      "count": 1
+    },
+    {
+      "origin": "TEMPLATE",
+      "category": "Woc-Logo-Hero.Webp",
+      "count": 1
+    },
+    {
+      "origin": "TEMPLATE",
+      "category": "Worldofclaudecraft-Logo.Png",
+      "count": 1
+    }
+  ],
+  "warning_count": 8758,
+  "duplicate_asset_count": 4597,
+  "unique_content_hash_count": 6006
+}

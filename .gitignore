@@ -1,0 +1,23 @@
+# Large files
+*.rar
+*.zip
+*.7z
+*.tar.gz
+*.blend1
+.DS_Store
+Thumbs.db
+node_modules/
+dist/
+build/
+*.log
+
+# Claudecraft code (too large for git)
+04_Code/
+
+# Large texture packs
+00_Packs_Raw/PSX_Modular_Medieval/
+00_Packs_Raw/kenney_retro-medieval-kit/
+00_Packs_Raw/3D Retro Medieval Fantasy Kit/
+00_Packs_Raw/Individual_Assets/
+00_Packs_Raw/Medieval/
+00_Packs_Raw/TownTileSet/

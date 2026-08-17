@@ -1,0 +1,109 @@
+name: Build Demons Whip Full Asset Catalog
+
+on:
+  push:
+    branches: [docs/full-asset-catalog-2026-08-17]
+    paths:
+      - .github/workflows/build-full-asset-catalog.yml
+      - .catalog_bootstrap/**
+      - tools/asset_catalog/**
+      - 03_Docs/superpowers/**
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+env:
+  CATALOG_OUTPUT: /tmp/demons-whip-asset-catalog
+  DELIVERY_ZIP: /tmp/Demons_Whip_Asset_Catalog_FULL.zip
+  PYTHONUNBUFFERED: "1"
+
+concurrency:
+  group: demons-whip-full-asset-catalog-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  build-catalog:
+    if: ${{ github.event_name == 'workflow_dispatch' || !contains(github.event.head_commit.message, '[skip ci]') }}
+    runs-on: ubuntu-22.04
+    timeout-minutes: 350
+    steps:
+      - name: Checkout Demons Whip documentation branch
+        uses: actions/checkout@v4
+        with:
+          path: workspace/demons
+          fetch-depth: 1
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /.github/
+            /.catalog_bootstrap/
+            /00_Packs_Raw/
+            /01_Assets_Organizados/
+            /02_ConceptArt/
+            /03_Docs/
+            /Torment Textures/
+            /tools/
+            /DEMONS_WHIP_GDD_REBRAND_MASTER_v2.md
+
+      - name: Bootstrap generator and checkout template assets
+        run: bash workspace/demons/.catalog_bootstrap/ci_prepare.sh
+
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
+            blender libreoffice-writer ffmpeg fonts-dejavu-core fontconfig \
+            poppler-utils libgl1-mesa-dri libegl1 libglx-mesa0
+          sudo apt-get clean
+          sudo rm -rf /var/lib/apt/lists/*
+          blender --version | head -n 2
+          libreoffice --version
+          ffmpeg -version | head -n 1
+          df -h
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: workspace/demons/tools/asset_catalog/requirements.txt
+
+      - name: Install Python dependencies and run tests
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r workspace/demons/tools/asset_catalog/requirements.txt
+          cd workspace/demons/tools/asset_catalog
+          pytest -q
+
+      - name: Generate Word, PDF, inventories and QA package
+        run: bash workspace/demons/.catalog_bootstrap/ci_generate.sh
+
+      - name: Publish generated documents to branch
+        id: publish
+        continue-on-error: true
+        run: |
+          python workspace/demons/tools/asset_catalog/publish_outputs.py \
+            --repo-root workspace/demons \
+            --output-dir workspace/demons/03_Docs/Asset_Catalog \
+            --branch "$CATALOG_BRANCH" \
+            --max-batch-mb 120 \
+            --max-files-per-batch 24
+
+      - name: Upload complete downloadable package
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: Demons_Whip_Asset_Catalog_FULL
+          path: |
+            /tmp/Demons_Whip_Asset_Catalog_FULL.zip
+            /tmp/demons-whip-asset-catalog/build_complete.json
+            /tmp/demons-whip-asset-catalog/data/validation_report.json
+            /tmp/demons-whip-asset-catalog/qa/qa_summary.json
+            /tmp/demons-whip-asset-catalog/qa/pdf_page_audit.csv
+          if-no-files-found: error
+          compression-level: 0
+          retention-days: 90
+
+      - name: Report repository publication failure
+        if: ${{ steps.publish.outcome == 'failure' }}
+        run: exit 1

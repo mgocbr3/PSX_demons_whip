@@ -1,0 +1,22 @@
+{
+  "stage": "COMPLETE",
+  "updated_at": "2026-08-17T19:11:48+00:00",
+  "details": {
+    "status": "COMPLETE",
+    "generated_at": "2026-08-17T19:11:48+00:00",
+    "elapsed_seconds": 1118.275988809,
+    "asset_count": 8344,
+    "volume_count": 101,
+    "delivery_zip": "/tmp/Demons_Whip_Asset_Catalog_FULL.zip",
+    "delivery_zip_size_bytes": 145593367,
+    "validation": {
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "asset_count": 8344,
+      "volume_asset_total": 8344,
+      "volume_count": 101,
+      "checked_files": 204
+    }
+  }
+}

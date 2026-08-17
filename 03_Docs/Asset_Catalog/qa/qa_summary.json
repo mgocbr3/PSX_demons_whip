@@ -1,0 +1,1138 @@
+{
+  "generated_at": "2026-08-17T19:12:41+00:00",
+  "catalog_dir": "/tmp/demons-whip-asset-catalog",
+  "pdf_count": 102,
+  "docx_count": 102,
+  "total_pages_rendered": 8003,
+  "blank_page_count": 0,
+  "render_error_count": 0,
+  "invalid_docx_count": 0,
+  "pdfs": [
+    {
+      "pdf": "Demons_Whip_Inventario_Mestre.pdf",
+      "pages": 9,
+      "blank_pages": 0,
+      "size_bytes": 77354
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_NOVO_Buildings_MODEL_3D_V01.pdf",
+      "pages": 15,
+      "blank_pages": 0,
+      "size_bytes": 138497
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_NOVO_Characters_MODEL_3D_V01.pdf",
+      "pages": 65,
+      "blank_pages": 0,
+      "size_bytes": 492218
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_NOVO_Concept_Art_IMAGE_TEXTURE_V01.pdf",
+      "pages": 17,
+      "blank_pages": 0,
+      "size_bytes": 804851
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_NOVO_Dungeon_IMAGE_TEXTURE_V01.pdf",
+      "pages": 13,
+      "blank_pages": 0,
+      "size_bytes": 255130
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_NOVO_Dungeon_MODEL_3D_V01.pdf",
+      "pages": 141,
+      "blank_pages": 0,
+      "size_bytes": 1034459
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_NOVO_Dungeon_MODEL_3D_V02.pdf",
+      "pages": 141,
+      "blank_pages": 0,
+      "size_bytes": 997779
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_NOVO_Dungeon_MODEL_3D_V03.pdf",
+      "pages": 141,
+      "blank_pages": 0,
+      "size_bytes": 1043778
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_NOVO_Dungeon_MODEL_3D_V04.pdf",
+      "pages": 141,
+      "blank_pages": 0,
+      "size_bytes": 998473
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_NOVO_Dungeon_MODEL_3D_V05.pdf",
+      "pages": 141,
+      "blank_pages": 0,
+      "size_bytes": 1031887
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_NOVO_Dungeon_MODEL_3D_V06.pdf",
+      "pages": 141,
+      "blank_pages": 0,
+      "size_bytes": 973142
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_NOVO_Dungeon_MODEL_3D_V07.pdf",
+      "pages": 53,
+      "blank_pages": 0,
+      "size_bytes": 344108
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_NOVO_Enemies_IMAGE_TEXTURE_V01.pdf",
+      "pages": 2,
+      "blank_pages": 0,
+      "size_bytes": 69003
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_NOVO_Enemies_MODEL_3D_V01.pdf",
+      "pages": 141,
+      "blank_pages": 0,
+      "size_bytes": 997513
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_NOVO_Enemies_MODEL_3D_V02.pdf",
+      "pages": 59,
+      "blank_pages": 0,
+      "size_bytes": 458802
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_NOVO_Image_Texture_IMAGE_TEXTURE_V01.pdf",
+      "pages": 15,
+      "blank_pages": 0,
+      "size_bytes": 625090
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_NOVO_Material_Data_MATERIAL_DATA_V01.pdf",
+      "pages": 2,
+      "blank_pages": 0,
+      "size_bytes": 54030
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_NOVO_Model_3D_MODEL_3D_V01.pdf",
+      "pages": 141,
+      "blank_pages": 0,
+      "size_bytes": 852838
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_NOVO_Model_3D_MODEL_3D_V02.pdf",
+      "pages": 5,
+      "blank_pages": 0,
+      "size_bytes": 66582
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_NOVO_Mounts_MODEL_3D_V01.pdf",
+      "pages": 19,
+      "blank_pages": 0,
+      "size_bytes": 168184
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_NOVO_Nature_IMAGE_TEXTURE_V01.pdf",
+      "pages": 53,
+      "blank_pages": 0,
+      "size_bytes": 1567484
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_NOVO_Nature_MODEL_3D_V01.pdf",
+      "pages": 141,
+      "blank_pages": 0,
+      "size_bytes": 997590
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_NOVO_Nature_MODEL_3D_V02.pdf",
+      "pages": 141,
+      "blank_pages": 0,
+      "size_bytes": 984981
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_NOVO_Nature_MODEL_3D_V03.pdf",
+      "pages": 141,
+      "blank_pages": 0,
+      "size_bytes": 971983
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_NOVO_Nature_MODEL_3D_V04.pdf",
+      "pages": 141,
+      "blank_pages": 0,
+      "size_bytes": 886546
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_NOVO_Nature_MODEL_3D_V05.pdf",
+      "pages": 93,
+      "blank_pages": 0,
+      "size_bytes": 604553
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_NOVO_Props_MODEL_3D_V01.pdf",
+      "pages": 141,
+      "blank_pages": 0,
+      "size_bytes": 1020675
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_NOVO_Props_MODEL_3D_V02.pdf",
+      "pages": 141,
+      "blank_pages": 0,
+      "size_bytes": 1017541
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_NOVO_Props_MODEL_3D_V03.pdf",
+      "pages": 109,
+      "blank_pages": 0,
+      "size_bytes": 803745
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_NOVO_Textures_IMAGE_TEXTURE_V01.pdf",
+      "pages": 111,
+      "blank_pages": 0,
+      "size_bytes": 4898239
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_NOVO_Textures_IMAGE_TEXTURE_V02.pdf",
+      "pages": 111,
+      "blank_pages": 0,
+      "size_bytes": 5609572
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_NOVO_Textures_IMAGE_TEXTURE_V03.pdf",
+      "pages": 25,
+      "blank_pages": 0,
+      "size_bytes": 1242493
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_NOVO_UI_IMAGE_TEXTURE_V01.pdf",
+      "pages": 2,
+      "blank_pages": 0,
+      "size_bytes": 50171
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_NOVO_Ui_IMAGE_TEXTURE_V01.pdf",
+      "pages": 111,
+      "blank_pages": 0,
+      "size_bytes": 2203688
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_NOVO_Ui_IMAGE_TEXTURE_V02.pdf",
+      "pages": 111,
+      "blank_pages": 0,
+      "size_bytes": 1956455
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_NOVO_Ui_IMAGE_TEXTURE_V03.pdf",
+      "pages": 111,
+      "blank_pages": 0,
+      "size_bytes": 1740085
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_NOVO_Ui_IMAGE_TEXTURE_V04.pdf",
+      "pages": 111,
+      "blank_pages": 0,
+      "size_bytes": 1803570
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_NOVO_Ui_IMAGE_TEXTURE_V05.pdf",
+      "pages": 111,
+      "blank_pages": 0,
+      "size_bytes": 1757549
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_NOVO_Ui_IMAGE_TEXTURE_V06.pdf",
+      "pages": 111,
+      "blank_pages": 0,
+      "size_bytes": 1514768
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_NOVO_Ui_IMAGE_TEXTURE_V07.pdf",
+      "pages": 111,
+      "blank_pages": 0,
+      "size_bytes": 1826641
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_NOVO_Ui_IMAGE_TEXTURE_V08.pdf",
+      "pages": 111,
+      "blank_pages": 0,
+      "size_bytes": 2261299
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_NOVO_Ui_IMAGE_TEXTURE_V09.pdf",
+      "pages": 111,
+      "blank_pages": 0,
+      "size_bytes": 2368366
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_NOVO_Ui_IMAGE_TEXTURE_V10.pdf",
+      "pages": 47,
+      "blank_pages": 0,
+      "size_bytes": 598616
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_NOVO_Vfx_IMAGE_TEXTURE_V01.pdf",
+      "pages": 10,
+      "blank_pages": 0,
+      "size_bytes": 241023
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_NOVO_Weapons_IMAGE_TEXTURE_V01.pdf",
+      "pages": 5,
+      "blank_pages": 0,
+      "size_bytes": 174623
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_NOVO_Weapons_MODEL_3D_V01.pdf",
+      "pages": 141,
+      "blank_pages": 0,
+      "size_bytes": 1011208
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_NOVO_Weapons_MODEL_3D_V02.pdf",
+      "pages": 97,
+      "blank_pages": 0,
+      "size_bytes": 697295
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_TEMPLATE_Apple-Touch-Icon.Png_IMAGE_TEXTURE_V01.pdf",
+      "pages": 2,
+      "blank_pages": 0,
+      "size_bytes": 52460
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_TEMPLATE_Audio_AUDIO_V01.pdf",
+      "pages": 71,
+      "blank_pages": 0,
+      "size_bytes": 1281536
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_TEMPLATE_Audio_AUDIO_V02.pdf",
+      "pages": 71,
+      "blank_pages": 0,
+      "size_bytes": 1306049
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_TEMPLATE_Audio_AUDIO_V03.pdf",
+      "pages": 71,
+      "blank_pages": 0,
+      "size_bytes": 1242183
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_TEMPLATE_Audio_AUDIO_V04.pdf",
+      "pages": 71,
+      "blank_pages": 0,
+      "size_bytes": 1510876
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_TEMPLATE_Audio_AUDIO_V05.pdf",
+      "pages": 71,
+      "blank_pages": 0,
+      "size_bytes": 1837681
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_TEMPLATE_Audio_AUDIO_V06.pdf",
+      "pages": 71,
+      "blank_pages": 0,
+      "size_bytes": 1802879
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_TEMPLATE_Audio_AUDIO_V07.pdf",
+      "pages": 71,
+      "blank_pages": 0,
+      "size_bytes": 1851069
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_TEMPLATE_Audio_AUDIO_V08.pdf",
+      "pages": 22,
+      "blank_pages": 0,
+      "size_bytes": 596042
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_TEMPLATE_Claudium_IMAGE_TEXTURE_V01.pdf",
+      "pages": 22,
+      "blank_pages": 0,
+      "size_bytes": 644448
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_TEMPLATE_Env_IMAGE_TEXTURE_V01.pdf",
+      "pages": 21,
+      "blank_pages": 0,
+      "size_bytes": 464332
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_TEMPLATE_Favicon-16X16.Png_IMAGE_TEXTURE_V01.pdf",
+      "pages": 2,
+      "blank_pages": 0,
+      "size_bytes": 39609
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_TEMPLATE_Favicon-32X32.Png_IMAGE_TEXTURE_V01.pdf",
+      "pages": 2,
+      "blank_pages": 0,
+      "size_bytes": 39852
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_TEMPLATE_Favicon.Ico_IMAGE_TEXTURE_V01.pdf",
+      "pages": 2,
+      "blank_pages": 0,
+      "size_bytes": 40658
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_TEMPLATE_Fonts_FONT_V01.pdf",
+      "pages": 12,
+      "blank_pages": 0,
+      "size_bytes": 271133
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_TEMPLATE_Guide-Stills_IMAGE_TEXTURE_V01.pdf",
+      "pages": 46,
+      "blank_pages": 0,
+      "size_bytes": 855073
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_TEMPLATE_Home-Bg.Mp4_VIDEO_V01.pdf",
+      "pages": 2,
+      "blank_pages": 0,
+      "size_bytes": 35541
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_TEMPLATE_Home-Bg.Png_IMAGE_TEXTURE_V01.pdf",
+      "pages": 2,
+      "blank_pages": 0,
+      "size_bytes": 76918
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_TEMPLATE_Icon-192.Png_IMAGE_TEXTURE_V01.pdf",
+      "pages": 2,
+      "blank_pages": 0,
+      "size_bytes": 54260
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_TEMPLATE_Icon-512.Png_IMAGE_TEXTURE_V01.pdf",
+      "pages": 2,
+      "blank_pages": 0,
+      "size_bytes": 91331
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_TEMPLATE_Loading-Screen.Jpg_IMAGE_TEXTURE_V01.pdf",
+      "pages": 2,
+      "blank_pages": 0,
+      "size_bytes": 71724
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_TEMPLATE_Map_Art_IMAGE_TEXTURE_V01.pdf",
+      "pages": 5,
+      "blank_pages": 0,
+      "size_bytes": 398614
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_TEMPLATE_Map_Bg_IMAGE_TEXTURE_V01.pdf",
+      "pages": 9,
+      "blank_pages": 0,
+      "size_bytes": 619572
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_TEMPLATE_Models_IMAGE_TEXTURE_V01.pdf",
+      "pages": 11,
+      "blank_pages": 0,
+      "size_bytes": 357777
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_TEMPLATE_Models_MODEL_3D_V01.pdf",
+      "pages": 141,
+      "blank_pages": 0,
+      "size_bytes": 993392
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_TEMPLATE_Models_MODEL_3D_V02.pdf",
+      "pages": 141,
+      "blank_pages": 0,
+      "size_bytes": 977649
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_TEMPLATE_Models_MODEL_3D_V03.pdf",
+      "pages": 141,
+      "blank_pages": 0,
+      "size_bytes": 981722
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_TEMPLATE_Models_MODEL_3D_V04.pdf",
+      "pages": 140,
+      "blank_pages": 0,
+      "size_bytes": 945718
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_TEMPLATE_Models_MODEL_3D_V05.pdf",
+      "pages": 141,
+      "blank_pages": 0,
+      "size_bytes": 1013533
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_TEMPLATE_Models_MODEL_3D_V06.pdf",
+      "pages": 141,
+      "blank_pages": 0,
+      "size_bytes": 983457
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_TEMPLATE_Models_MODEL_3D_V07.pdf",
+      "pages": 141,
+      "blank_pages": 0,
+      "size_bytes": 1009293
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_TEMPLATE_Models_MODEL_3D_V08.pdf",
+      "pages": 141,
+      "blank_pages": 0,
+      "size_bytes": 986823
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_TEMPLATE_Models_MODEL_3D_V09.pdf",
+      "pages": 141,
+      "blank_pages": 0,
+      "size_bytes": 1014410
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_TEMPLATE_Models_MODEL_3D_V10.pdf",
+      "pages": 141,
+      "blank_pages": 0,
+      "size_bytes": 967413
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_TEMPLATE_Models_MODEL_3D_V11.pdf",
+      "pages": 141,
+      "blank_pages": 0,
+      "size_bytes": 1026039
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_TEMPLATE_Models_MODEL_3D_V12.pdf",
+      "pages": 141,
+      "blank_pages": 0,
+      "size_bytes": 987425
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_TEMPLATE_Models_MODEL_3D_V13.pdf",
+      "pages": 141,
+      "blank_pages": 0,
+      "size_bytes": 1039104
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_TEMPLATE_Models_MODEL_3D_V14.pdf",
+      "pages": 141,
+      "blank_pages": 0,
+      "size_bytes": 1014766
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_TEMPLATE_Models_MODEL_3D_V15.pdf",
+      "pages": 141,
+      "blank_pages": 0,
+      "size_bytes": 963527
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_TEMPLATE_Models_MODEL_3D_V16.pdf",
+      "pages": 141,
+      "blank_pages": 0,
+      "size_bytes": 992286
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_TEMPLATE_Models_MODEL_3D_V17.pdf",
+      "pages": 101,
+      "blank_pages": 0,
+      "size_bytes": 709652
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_TEMPLATE_Textures_IMAGE_TEXTURE_V01.pdf",
+      "pages": 72,
+      "blank_pages": 0,
+      "size_bytes": 4947939
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_TEMPLATE_Ui_IMAGE_TEXTURE_V01.pdf",
+      "pages": 111,
+      "blank_pages": 0,
+      "size_bytes": 1816061
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_TEMPLATE_Ui_IMAGE_TEXTURE_V02.pdf",
+      "pages": 111,
+      "blank_pages": 0,
+      "size_bytes": 1969486
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_TEMPLATE_Ui_IMAGE_TEXTURE_V03.pdf",
+      "pages": 111,
+      "blank_pages": 0,
+      "size_bytes": 1863300
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_TEMPLATE_Ui_IMAGE_TEXTURE_V04.pdf",
+      "pages": 111,
+      "blank_pages": 0,
+      "size_bytes": 1805780
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_TEMPLATE_Ui_IMAGE_TEXTURE_V05.pdf",
+      "pages": 111,
+      "blank_pages": 0,
+      "size_bytes": 1547034
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_TEMPLATE_Ui_IMAGE_TEXTURE_V06.pdf",
+      "pages": 111,
+      "blank_pages": 0,
+      "size_bytes": 2547772
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_TEMPLATE_Ui_IMAGE_TEXTURE_V07.pdf",
+      "pages": 111,
+      "blank_pages": 0,
+      "size_bytes": 3585338
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_TEMPLATE_Ui_IMAGE_TEXTURE_V08.pdf",
+      "pages": 67,
+      "blank_pages": 0,
+      "size_bytes": 1296762
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_TEMPLATE_Vfx_IMAGE_TEXTURE_V01.pdf",
+      "pages": 9,
+      "blank_pages": 0,
+      "size_bytes": 206590
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_TEMPLATE_Woc-Logo-Guide.Webp_IMAGE_TEXTURE_V01.pdf",
+      "pages": 2,
+      "blank_pages": 0,
+      "size_bytes": 53524
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_TEMPLATE_Woc-Logo-Hero.Webp_IMAGE_TEXTURE_V01.pdf",
+      "pages": 2,
+      "blank_pages": 0,
+      "size_bytes": 75960
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_TEMPLATE_Woc_Logo_Square.Webp_IMAGE_TEXTURE_V01.pdf",
+      "pages": 2,
+      "blank_pages": 0,
+      "size_bytes": 89836
+    },
+    {
+      "pdf": "volumes/Demons_Whip_Catalogo_TEMPLATE_Worldofclaudecraft-Logo.Png_IMAGE_TEXTURE_V01.pdf",
+      "pages": 2,
+      "blank_pages": 0,
+      "size_bytes": 76842
+    }
+  ],
+  "blank_pages": [],
+  "render_errors": [],
+  "docx_validation": [
+    {
+      "path": "Demons_Whip_Inventario_Mestre.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_NOVO_Buildings_MODEL_3D_V01.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_NOVO_Characters_MODEL_3D_V01.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_NOVO_Concept_Art_IMAGE_TEXTURE_V01.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_NOVO_Dungeon_IMAGE_TEXTURE_V01.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_NOVO_Dungeon_MODEL_3D_V01.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_NOVO_Dungeon_MODEL_3D_V02.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_NOVO_Dungeon_MODEL_3D_V03.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_NOVO_Dungeon_MODEL_3D_V04.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_NOVO_Dungeon_MODEL_3D_V05.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_NOVO_Dungeon_MODEL_3D_V06.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_NOVO_Dungeon_MODEL_3D_V07.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_NOVO_Enemies_IMAGE_TEXTURE_V01.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_NOVO_Enemies_MODEL_3D_V01.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_NOVO_Enemies_MODEL_3D_V02.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_NOVO_Image_Texture_IMAGE_TEXTURE_V01.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_NOVO_Material_Data_MATERIAL_DATA_V01.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_NOVO_Model_3D_MODEL_3D_V01.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_NOVO_Model_3D_MODEL_3D_V02.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_NOVO_Mounts_MODEL_3D_V01.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_NOVO_Nature_IMAGE_TEXTURE_V01.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_NOVO_Nature_MODEL_3D_V01.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_NOVO_Nature_MODEL_3D_V02.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_NOVO_Nature_MODEL_3D_V03.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_NOVO_Nature_MODEL_3D_V04.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_NOVO_Nature_MODEL_3D_V05.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_NOVO_Props_MODEL_3D_V01.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_NOVO_Props_MODEL_3D_V02.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_NOVO_Props_MODEL_3D_V03.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_NOVO_Textures_IMAGE_TEXTURE_V01.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_NOVO_Textures_IMAGE_TEXTURE_V02.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_NOVO_Textures_IMAGE_TEXTURE_V03.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_NOVO_UI_IMAGE_TEXTURE_V01.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_NOVO_Ui_IMAGE_TEXTURE_V01.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_NOVO_Ui_IMAGE_TEXTURE_V02.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_NOVO_Ui_IMAGE_TEXTURE_V03.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_NOVO_Ui_IMAGE_TEXTURE_V04.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_NOVO_Ui_IMAGE_TEXTURE_V05.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_NOVO_Ui_IMAGE_TEXTURE_V06.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_NOVO_Ui_IMAGE_TEXTURE_V07.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_NOVO_Ui_IMAGE_TEXTURE_V08.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_NOVO_Ui_IMAGE_TEXTURE_V09.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_NOVO_Ui_IMAGE_TEXTURE_V10.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_NOVO_Vfx_IMAGE_TEXTURE_V01.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_NOVO_Weapons_IMAGE_TEXTURE_V01.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_NOVO_Weapons_MODEL_3D_V01.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_NOVO_Weapons_MODEL_3D_V02.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_TEMPLATE_Apple-Touch-Icon.Png_IMAGE_TEXTURE_V01.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_TEMPLATE_Audio_AUDIO_V01.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_TEMPLATE_Audio_AUDIO_V02.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_TEMPLATE_Audio_AUDIO_V03.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_TEMPLATE_Audio_AUDIO_V04.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_TEMPLATE_Audio_AUDIO_V05.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_TEMPLATE_Audio_AUDIO_V06.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_TEMPLATE_Audio_AUDIO_V07.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_TEMPLATE_Audio_AUDIO_V08.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_TEMPLATE_Claudium_IMAGE_TEXTURE_V01.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_TEMPLATE_Env_IMAGE_TEXTURE_V01.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_TEMPLATE_Favicon-16X16.Png_IMAGE_TEXTURE_V01.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_TEMPLATE_Favicon-32X32.Png_IMAGE_TEXTURE_V01.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_TEMPLATE_Favicon.Ico_IMAGE_TEXTURE_V01.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_TEMPLATE_Fonts_FONT_V01.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_TEMPLATE_Guide-Stills_IMAGE_TEXTURE_V01.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_TEMPLATE_Home-Bg.Mp4_VIDEO_V01.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_TEMPLATE_Home-Bg.Png_IMAGE_TEXTURE_V01.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_TEMPLATE_Icon-192.Png_IMAGE_TEXTURE_V01.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_TEMPLATE_Icon-512.Png_IMAGE_TEXTURE_V01.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_TEMPLATE_Loading-Screen.Jpg_IMAGE_TEXTURE_V01.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_TEMPLATE_Map_Art_IMAGE_TEXTURE_V01.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_TEMPLATE_Map_Bg_IMAGE_TEXTURE_V01.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_TEMPLATE_Models_IMAGE_TEXTURE_V01.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_TEMPLATE_Models_MODEL_3D_V01.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_TEMPLATE_Models_MODEL_3D_V02.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_TEMPLATE_Models_MODEL_3D_V03.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_TEMPLATE_Models_MODEL_3D_V04.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_TEMPLATE_Models_MODEL_3D_V05.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_TEMPLATE_Models_MODEL_3D_V06.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_TEMPLATE_Models_MODEL_3D_V07.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_TEMPLATE_Models_MODEL_3D_V08.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_TEMPLATE_Models_MODEL_3D_V09.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_TEMPLATE_Models_MODEL_3D_V10.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_TEMPLATE_Models_MODEL_3D_V11.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_TEMPLATE_Models_MODEL_3D_V12.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_TEMPLATE_Models_MODEL_3D_V13.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_TEMPLATE_Models_MODEL_3D_V14.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_TEMPLATE_Models_MODEL_3D_V15.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_TEMPLATE_Models_MODEL_3D_V16.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_TEMPLATE_Models_MODEL_3D_V17.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_TEMPLATE_Textures_IMAGE_TEXTURE_V01.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_TEMPLATE_Ui_IMAGE_TEXTURE_V01.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_TEMPLATE_Ui_IMAGE_TEXTURE_V02.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_TEMPLATE_Ui_IMAGE_TEXTURE_V03.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_TEMPLATE_Ui_IMAGE_TEXTURE_V04.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_TEMPLATE_Ui_IMAGE_TEXTURE_V05.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_TEMPLATE_Ui_IMAGE_TEXTURE_V06.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_TEMPLATE_Ui_IMAGE_TEXTURE_V07.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_TEMPLATE_Ui_IMAGE_TEXTURE_V08.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_TEMPLATE_Vfx_IMAGE_TEXTURE_V01.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_TEMPLATE_Woc-Logo-Guide.Webp_IMAGE_TEXTURE_V01.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_TEMPLATE_Woc-Logo-Hero.Webp_IMAGE_TEXTURE_V01.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_TEMPLATE_Woc_Logo_Square.Webp_IMAGE_TEXTURE_V01.docx",
+      "valid": true,
+      "detail": "ok"
+    },
+    {
+      "path": "volumes/Demons_Whip_Catalogo_TEMPLATE_Worldofclaudecraft-Logo.Png_IMAGE_TEXTURE_V01.docx",
+      "valid": true,
+      "detail": "ok"
+    }
+  ]
+}

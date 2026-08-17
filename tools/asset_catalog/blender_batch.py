@@ -55,9 +55,9 @@ def import_model(path: Path) -> None:
         bpy.ops.import_scene.fbx(filepath=str(path), automatic_bone_orientation=False)
         return
     if ext == ".obj":
-        if hasattr(bpy.ops.wm, "obj_import"):
+        try:
             bpy.ops.wm.obj_import(filepath=str(path))
-        else:
+        except Exception:
             bpy.ops.import_scene.obj(filepath=str(path))
         return
     if ext == ".dae":

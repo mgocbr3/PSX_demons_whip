@@ -18,7 +18,7 @@ env:
   DELIVERY_ZIP: /tmp/Demons_Whip_Asset_Catalog_FULL.zip
   PYTHONUNBUFFERED: "1"
   LIBGL_ALWAYS_SOFTWARE: "1"
-  MESA_GL_VERSION_OVERRIDE: "3.3"
+  BLENDER_VERSION: "5.2.0"
 
 concurrency:
   group: demons-whip-full-asset-catalog-${{ github.ref }}
@@ -50,28 +50,62 @@ jobs:
       - name: Bootstrap generator and checkout template assets
         run: bash workspace/demons/.catalog_bootstrap/ci_prepare.sh
 
-      - name: Install system dependencies
+      - name: Install system dependencies and official Blender
         run: |
           sudo apt-get update
           sudo DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
-            blender libreoffice-writer ffmpeg fonts-dejavu-core fontconfig \
-            poppler-utils libgl1-mesa-dri libegl1 libglx-mesa0 \
-            python3-numpy xvfb xauth
+            ca-certificates curl xz-utils libreoffice-writer ffmpeg \
+            fonts-dejavu-core fontconfig poppler-utils xvfb xauth \
+            libgl1-mesa-dri libegl1 libglx-mesa0 libx11-6 libxi6 \
+            libxfixes3 libxrender1 libxkbcommon0 libsm6 libice6 libxxf86vm1
           sudo apt-get clean
           sudo rm -rf /var/lib/apt/lists/*
 
-          OCIO_CONFIG="$(find /usr/share/blender -type f -path '*/colormanagement/config.ocio' | head -n 1 || true)"
-          if [ -n "$OCIO_CONFIG" ]; then
-            echo "OCIO=$OCIO_CONFIG" >> "$GITHUB_ENV"
-            echo "Using OCIO config: $OCIO_CONFIG"
-          fi
+          BLENDER_ARCHIVE="blender-${BLENDER_VERSION}-linux-x64.tar.xz"
+          BLENDER_BASE_URL="https://download.blender.org/release/Blender5.2"
+          curl --fail --location --retry 5 --retry-all-errors \
+            --output "/tmp/${BLENDER_ARCHIVE}" \
+            "${BLENDER_BASE_URL}/${BLENDER_ARCHIVE}"
+          curl --fail --location --retry 5 --retry-all-errors \
+            --output "/tmp/blender-${BLENDER_VERSION}.sha256" \
+            "${BLENDER_BASE_URL}/blender-${BLENDER_VERSION}.sha256"
+          cd /tmp
+          grep "${BLENDER_ARCHIVE}" "blender-${BLENDER_VERSION}.sha256" > blender-linux.sha256
+          sha256sum --check blender-linux.sha256
+          sudo tar -xJf "${BLENDER_ARCHIVE}" -C /opt
+          sudo ln -sfn "/opt/blender-${BLENDER_VERSION}-linux-x64/blender" /usr/local/bin/blender
+          cd "$GITHUB_WORKSPACE"
 
-          blender --version | head -n 2
+          blender --version | head -n 3
           xvfb-run -a blender --background --factory-startup --python-expr \
-            "import numpy; print('BLENDER_NUMPY_OK', numpy.__version__)"
+            "import bpy, numpy; print('BLENDER_RUNTIME_OK', bpy.app.version_string, numpy.__version__)"
           libreoffice --version
           ffmpeg -version | head -n 1
           df -h
+
+      - name: Verify compressed glTF compatibility
+        run: |
+          cat > /tmp/blender_gltf_smoke.py <<'PY'
+          import bpy
+          from pathlib import Path
+
+          samples = [
+              Path("workspace/template/public/models/props/fen_lilies.glb"),
+              Path("workspace/template/public/models/props/kmed_tavern_hollow.glb"),
+              Path("workspace/template/public/models/weapons/frostbite.glb"),
+          ]
+          for sample in samples:
+              if not sample.is_file():
+                  raise FileNotFoundError(sample)
+              bpy.ops.wm.read_factory_settings(use_empty=True)
+              bpy.ops.import_scene.gltf(filepath=str(sample.resolve()), import_webp_texture=True)
+              meshes = [obj for obj in bpy.context.scene.objects if obj.type == "MESH"]
+              if not meshes:
+                  raise RuntimeError(f"No mesh objects imported from {sample}")
+              print(f"GLTF_SMOKE_OK {sample} meshes={len(meshes)}")
+          PY
+          xvfb-run -a -s "-screen 0 1280x1024x24" \
+            blender --background --factory-startup --python /tmp/blender_gltf_smoke.py
 
       - name: Set up Python
         uses: actions/setup-python@v5

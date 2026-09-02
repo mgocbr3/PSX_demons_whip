@@ -1,0 +1,272 @@
+[
+  {
+    "line_index": 7,
+    "entity": "Warrior",
+    "dest": "**Vanguard**",
+    "asset": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\01_Assets_Organizados\\Characters\\warrior_ability_anims.glb",
+    "out": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\03_Docs\\Previews_Entity_Map\\008_vanguard_warrior.png",
+    "source": "base",
+    "source_file": "01_Assets_Organizados\\Characters\\warrior_ability_anims.glb",
+    "dest_file": "008_vanguard_warrior.png"
+  },
+  {
+    "line_index": 8,
+    "entity": "Knight",
+    "dest": "**Paladin**",
+    "asset": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\01_Assets_Organizados\\Characters\\paladin.glb",
+    "out": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\03_Docs\\Previews_Entity_Map\\009_paladin_knight.png",
+    "source": "proposto",
+    "source_file": "01_Assets_Organizados\\Characters\\paladin.glb",
+    "dest_file": "009_paladin_knight.png"
+  },
+  {
+    "line_index": 9,
+    "entity": "Mage",
+    "dest": "**Sorcerer**",
+    "asset": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\01_Assets_Organizados\\Characters\\mage.glb",
+    "out": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\03_Docs\\Previews_Entity_Map\\010_sorcerer_mage.png",
+    "source": "base",
+    "source_file": "01_Assets_Organizados\\Characters\\mage.glb",
+    "dest_file": "010_sorcerer_mage.png"
+  },
+  {
+    "line_index": 10,
+    "entity": "Rogue",
+    "dest": "**Assassin**",
+    "asset": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\01_Assets_Organizados\\Characters\\rogue.glb",
+    "out": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\03_Docs\\Previews_Entity_Map\\011_assassin_rogue.png",
+    "source": "base",
+    "source_file": "01_Assets_Organizados\\Characters\\rogue.glb",
+    "dest_file": "011_assassin_rogue.png"
+  },
+  {
+    "line_index": 11,
+    "entity": "Ranger",
+    "dest": "**Hunter**",
+    "asset": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\01_Assets_Organizados\\Characters\\hunter_ability_anims.glb",
+    "out": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\03_Docs\\Previews_Entity_Map\\012_hunter_ranger.png",
+    "source": "proposto",
+    "source_file": "01_Assets_Organizados\\Characters\\hunter_ability_anims.glb",
+    "dest_file": "012_hunter_ranger.png"
+  },
+  {
+    "line_index": 12,
+    "entity": "Druid",
+    "dest": "**Cleric**",
+    "asset": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\01_Assets_Organizados\\Characters\\druid.glb",
+    "out": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\03_Docs\\Previews_Entity_Map\\013_cleric_druid.png",
+    "source": "base",
+    "source_file": "01_Assets_Organizados\\Characters\\druid.glb",
+    "dest_file": "013_cleric_druid.png"
+  },
+  {
+    "line_index": 13,
+    "entity": "Paladin",
+    "dest": "**Inquisitor**",
+    "asset": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\01_Assets_Organizados\\Characters\\paladin.glb",
+    "out": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\03_Docs\\Previews_Entity_Map\\014_inquisitor_paladin.png",
+    "source": "base",
+    "source_file": "01_Assets_Organizados\\Characters\\paladin.glb",
+    "dest_file": "014_inquisitor_paladin.png"
+  },
+  {
+    "line_index": 14,
+    "entity": "Warlock",
+    "dest": "**Necromancer**",
+    "asset": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\01_Assets_Organizados\\Characters\\warlock_ability_anims.glb",
+    "out": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\03_Docs\\Previews_Entity_Map\\015_necromancer_warlock.png",
+    "source": "base",
+    "source_file": "01_Assets_Organizados\\Characters\\warlock_ability_anims.glb",
+    "dest_file": "015_necromancer_warlock.png"
+  },
+  {
+    "line_index": 15,
+    "entity": "Shaman",
+    "dest": "**Occultist**",
+    "asset": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\01_Assets_Organizados\\Characters\\shaman_ability_anims.glb",
+    "out": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\03_Docs\\Previews_Entity_Map\\016_occultist_shaman.png",
+    "source": "base",
+    "source_file": "01_Assets_Organizados\\Characters\\shaman_ability_anims.glb",
+    "dest_file": "016_occultist_shaman.png"
+  },
+  {
+    "line_index": 16,
+    "entity": "Barbarian",
+    "dest": "**Berserker**",
+    "asset": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\01_Assets_Organizados\\Characters\\barbarian.glb",
+    "out": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\03_Docs\\Previews_Entity_Map\\017_berserker_barbarian.png",
+    "source": "base",
+    "source_file": "01_Assets_Organizados\\Characters\\barbarian.glb",
+    "dest_file": "017_berserker_barbarian.png"
+  },
+  {
+    "line_index": 17,
+    "entity": "Goblin",
+    "dest": "**Dreg**",
+    "asset": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\01_Assets_Organizados\\Enemies\\goblin.glb",
+    "out": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\03_Docs\\Previews_Entity_Map\\018_dreg_goblin.png",
+    "source": "base",
+    "source_file": "01_Assets_Organizados\\Enemies\\goblin.glb",
+    "dest_file": "018_dreg_goblin.png"
+  },
+  {
+    "line_index": 18,
+    "entity": "Kobold",
+    "dest": "**Gnoll**",
+    "asset": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\01_Assets_Organizados\\Enemies\\kobold.glb",
+    "out": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\03_Docs\\Previews_Entity_Map\\019_gnoll_kobold.png",
+    "source": "base",
+    "source_file": "01_Assets_Organizados\\Enemies\\kobold.glb",
+    "dest_file": "019_gnoll_kobold.png"
+  },
+  {
+    "line_index": 26,
+    "entity": "Giant",
+    "dest": "**Golem**",
+    "asset": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\01_Assets_Organizados\\Enemies\\giant.glb",
+    "out": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\03_Docs\\Previews_Entity_Map\\027_golem_giant.png",
+    "source": "base",
+    "source_file": "01_Assets_Organizados\\Enemies\\giant.glb",
+    "dest_file": "027_golem_giant.png"
+  },
+  {
+    "line_index": 28,
+    "entity": "Crab Enemy",
+    "dest": "**Cave Crab**",
+    "asset": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\01_Assets_Organizados\\Enemies\\crabenemy.glb",
+    "out": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\03_Docs\\Previews_Entity_Map\\029_cave_crab_crab_enemy.png",
+    "source": "base",
+    "source_file": "01_Assets_Organizados\\Enemies\\crabenemy.glb",
+    "dest_file": "029_cave_crab_crab_enemy.png"
+  },
+  {
+    "line_index": 30,
+    "entity": "Mushroom Pixie",
+    "dest": "**Fungal Zombie**",
+    "asset": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\01_Assets_Organizados\\Enemies\\mushroom_pixie.glb",
+    "out": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\03_Docs\\Previews_Entity_Map\\031_fungal_zombie_mushroom_pixie.png",
+    "source": "base",
+    "source_file": "01_Assets_Organizados\\Enemies\\mushroom_pixie.glb",
+    "dest_file": "031_fungal_zombie_mushroom_pixie.png"
+  },
+  {
+    "line_index": 31,
+    "entity": "Tribal",
+    "dest": "**Wildman**",
+    "asset": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\01_Assets_Organizados\\Enemies\\tribal.glb",
+    "out": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\03_Docs\\Previews_Entity_Map\\032_wildman_tribal.png",
+    "source": "base",
+    "source_file": "01_Assets_Organizados\\Enemies\\tribal.glb",
+    "dest_file": "032_wildman_tribal.png"
+  },
+  {
+    "line_index": 35,
+    "entity": "Bull",
+    "dest": "**Minotaur**",
+    "asset": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\01_Assets_Organizados\\Enemies\\bull.glb",
+    "out": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\03_Docs\\Previews_Entity_Map\\036_minotaur_bull.png",
+    "source": "base",
+    "source_file": "01_Assets_Organizados\\Enemies\\bull.glb",
+    "dest_file": "036_minotaur_bull.png"
+  },
+  {
+    "line_index": 36,
+    "entity": "Alpaca",
+    "dest": "**Donkey**",
+    "asset": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\01_Assets_Organizados\\Enemies\\alpaca.glb",
+    "out": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\03_Docs\\Previews_Entity_Map\\037_donkey_alpaca.png",
+    "source": "base",
+    "source_file": "01_Assets_Organizados\\Enemies\\alpaca.glb",
+    "dest_file": "037_donkey_alpaca.png"
+  },
+  {
+    "line_index": 37,
+    "entity": "Chicken Cow",
+    "dest": "**Scarecrow**",
+    "asset": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\01_Assets_Organizados\\Enemies\\chicken_cow.glb",
+    "out": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\03_Docs\\Previews_Entity_Map\\038_scarecrow_chicken_cow.png",
+    "source": "base",
+    "source_file": "01_Assets_Organizados\\Enemies\\chicken_cow.glb",
+    "dest_file": "038_scarecrow_chicken_cow.png"
+  },
+  {
+    "line_index": 38,
+    "entity": "Yumi Cat",
+    "dest": "**Hellcat**",
+    "asset": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\01_Assets_Organizados\\Enemies\\yumi_cat.glb",
+    "out": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\03_Docs\\Previews_Entity_Map\\039_hellcat_yumi_cat.png",
+    "source": "base",
+    "source_file": "01_Assets_Organizados\\Enemies\\yumi_cat.glb",
+    "dest_file": "039_hellcat_yumi_cat.png"
+  },
+  {
+    "line_index": 48,
+    "entity": "Grix",
+    "dest": "**Flesh Abomination**",
+    "asset": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\01_Assets_Organizados\\Enemies\\grix.glb",
+    "out": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\03_Docs\\Previews_Entity_Map\\049_flesh_abomination_grix.png",
+    "source": "base",
+    "source_file": "01_Assets_Organizados\\Enemies\\grix.glb",
+    "dest_file": "049_flesh_abomination_grix.png"
+  },
+  {
+    "line_index": 49,
+    "entity": "Grubjaw",
+    "dest": "**Carrion Eater**",
+    "asset": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\01_Assets_Organizados\\Enemies\\grubjaw.glb",
+    "out": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\03_Docs\\Previews_Entity_Map\\050_carrion_eater_grubjaw.png",
+    "source": "base",
+    "source_file": "01_Assets_Organizados\\Enemies\\grubjaw.glb",
+    "dest_file": "050_carrion_eater_grubjaw.png"
+  },
+  {
+    "line_index": 60,
+    "entity": "Veiled Doe",
+    "dest": "**Spectral Deer**",
+    "asset": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\01_Assets_Organizados\\Enemies\\veiled_doe.glb",
+    "out": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\03_Docs\\Previews_Entity_Map\\061_spectral_deer_veiled_doe.png",
+    "source": "base",
+    "source_file": "01_Assets_Organizados\\Enemies\\veiled_doe.glb",
+    "dest_file": "061_spectral_deer_veiled_doe.png"
+  },
+  {
+    "line_index": 74,
+    "entity": "Valorsteed",
+    "dest": "**Warhorse**",
+    "asset": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\01_Assets_Organizados\\Mounts\\valorsteed.glb",
+    "out": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\03_Docs\\Previews_Entity_Map\\075_warhorse_valorsteed.png",
+    "source": "base",
+    "source_file": "01_Assets_Organizados\\Mounts\\valorsteed.glb",
+    "dest_file": "075_warhorse_valorsteed.png"
+  },
+  {
+    "line_index": 75,
+    "entity": "Drake Raptor",
+    "dest": "**Wyvern**",
+    "asset": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\01_Assets_Organizados\\Mounts\\drakemaw_raptor.glb",
+    "out": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\03_Docs\\Previews_Entity_Map\\076_wyvern_drake_raptor.png",
+    "source": "base",
+    "source_file": "01_Assets_Organizados\\Mounts\\drakemaw_raptor.glb",
+    "dest_file": "076_wyvern_drake_raptor.png"
+  },
+  {
+    "line_index": 78,
+    "entity": "Snail",
+    "dest": "**Giant Beetle**",
+    "asset": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\01_Assets_Organizados\\Mounts\\stalkglider_snail.glb",
+    "out": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\03_Docs\\Previews_Entity_Map\\079_giant_beetle_snail.png",
+    "source": "base",
+    "source_file": "01_Assets_Organizados\\Mounts\\stalkglider_snail.glb",
+    "dest_file": "079_giant_beetle_snail.png"
+  },
+  {
+    "line_index": 82,
+    "entity": "Hover Cycle",
+    "dest": "**Chariot**",
+    "asset": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\01_Assets_Organizados\\Mounts\\aether_hover_cycle.glb",
+    "out": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\03_Docs\\Previews_Entity_Map\\083_chariot_hover_cycle.png",
+    "source": "base",
+    "source_file": "01_Assets_Organizados\\Mounts\\aether_hover_cycle.glb",
+    "dest_file": "083_chariot_hover_cycle.png"
+  }
+]

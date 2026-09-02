@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DEMONS WHIP — PS1 Demake MMO</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700;900&family=JetBrains+Mono:wght@600&display=swap');
+  </style>
+</head>
+<body>
+  <div id="app">
+    <canvas id="game-canvas"></canvas>
+    <div id="crt-overlay"></div>
+
+    <!-- HUD DOM Layer (preserva estrutura base GDD 13) -->
+    <div id="hud" class="hud">
+      <header class="hud-top">
+        <div class="brand">
+          <span class="brand-mark">†</span>
+          <span class="brand-name">DEMONS WHIP</span>
+          <span class="brand-sub">PSX • v0.2 • Vale of Cinders</span>
+        </div>
+        <div class="hud-top-right">
+          <span id="hud-fps" class="mono">60 FPS</span>
+          <span id="hud-zone" class="mono">Vale of Cinders</span>
+          <span id="zone-pill" class="zone-pill">ZONE: VALE</span>
+          <div class="hud-top-actions">
+            <button id="btn-inv">INV [I]</button>
+            <button id="btn-map">MAP [M]</button>
+            <button id="btn-audio">AUDIO</button>
+            <button id="btn-ad">AD</button>
+          </div>
+        </div>
+      </header>
+
+      <div class="hud-bottom">
+        <div class="bars">
+          <div class="bar hp"><div id="hp-fill" class="fill"></div><span class="label">HP <b id="hp-text">100/100</b></span></div>
+          <div class="bar stamina"><div id="stamina-fill" class="fill"></div><span class="label">STAMINA <b id="stamina-text">100</b></span></div>
+          <div class="bar xp" style="height:6px;"><div id="xp-fill" class="fill"></div></div>
+          <div class="mono" style="font-size:10px; opacity:.6">LV <span id="hud-lvl">1</span> • SOULS <span id="hud-souls">0</span> • <span id="hud-equip">Short Sword</span></div>
+        </div>
+        <div class="actions">
+          <div class="action-slot" data-key="1">[1] Whip Slash</div>
+          <div class="action-slot" data-key="2">[2] Dodge</div>
+          <div class="action-slot" data-key="3">[3] Mount</div>
+          <div class="action-slot" data-key="M">[M] Warhorse</div>
+          <div class="action-slot" data-key="E">[E] Bonfire</div>
+          <div class="action-slot" data-key="Z">[Z] Zone</div>
+        </div>
+        <div class="minimap" id="minimap">MAP • Vale of Cinders<br><small style="opacity:.6">WASD move • Mouse look • Click attack • Shift dodge • M mount • E bonfire • Z zone • I inv</small><br><small id="minimap-coords" class="mono">0,0</small></div>
+      </div>
+
+      <div id="center-msg" class="center-msg hidden"></div>
+      <div id="boss-bar" class="boss-bar hidden"><div id="boss-fill" class="fill"></div><span id="boss-label" class="label">BOSS</span></div>
+      <div id="bonfire-hint" class="bonfire-hint hidden">Press [E] to rest at Bonfire — The Whipbound Sigil</div>
+      <div id="deed-popup" class="deed-popup hidden">Deed unlocked!</div>
+
+      <div id="death-screen" class="death-screen hidden">
+        <div>
+          <h1>YOU DIED</h1>
+          <p>Your Whipbound mark flickers in the ash. Press [R] to respawn at bonfire.</p>
+          <button id="respawn-btn">Respawn at Cinders</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- LEFT HUD: chat, quest, inv -->
+    <div id="hud-left" class="hud-left">
+      <div class="panel" id="panel-chat">
+        <h4>RAVENPOST • CHAT</h4>
+        <div id="chat-log" class="chat-log"></div>
+      </div>
+      <div class="panel" id="panel-quest">
+        <h4>QUEST • Black Ledger</h4>
+        <div id="quest-tracker" class="quest-tracker"></div>
+      </div>
+      <div class="panel" id="panel-inv">
+        <h4>INVENTORY • Raven Market</h4>
+        <div id="inv-grid" class="panel-inv"></div>
+        <div id="inv-desc" class="mono" style="font-size:9px; opacity:.6; margin-top:6px">Equip: click slot</div>
+      </div>
+    </div>
+
+    <!-- Zone selector -->
+    <div id="zone-select" class="zone-select hidden">
+      <div class="panel">
+        <h4>SCARS • Zonas (IDs preservados)</h4>
+        <div id="zone-list" style="display:flex; flex-direction:column; gap:4px"></div>
+      </div>
+    </div>
+
+    <!-- Character Select -->
+    <div id="char-select" class="overlay">
+      <div class="select-card">
+        <h1>CHOOSE YOUR WHIPBOUND</h1>
+        <p class="subtitle">10 classes • IDs preservados • Rigs reaproveitados • Visuais PSX • GDD v2.0</p>
+        <div id="class-grid" class="class-grid"></div>
+        <div class="select-footer">
+          <div id="class-desc" class="class-desc">Selecione uma classe — The Whip aguarda</div>
+          <button id="enter-world-btn" disabled>ENTER THE SCARS</button>
+        </div>
+        <p class="footnote">Rebrand visual Soulslike-lite • Simulação preservada • IDs: warrior→vanguard, knight→paladin... • Bonfires são checkpoints visuais (sem perda de souls no MVP per GDD 5.2E)</p>
+      </div>
+    </div>
+
+    <!-- Loading -->
+    <div id="loading" class="loading">
+      <div class="loading-inner">
+        <div class="sigil">◈</div>
+        <div class="loading-text">LOADING SCARS...</div>
+        <div class="loading-bar"><div id="loading-fill"></div></div>
+        <div class="mono" style="opacity:.5;margin-top:8px;font-size:10px">PSX affine • 320×240 • vertex jitter • Torment palette • 7 Zonas</div>
+      </div>
+    </div>
+  </div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>

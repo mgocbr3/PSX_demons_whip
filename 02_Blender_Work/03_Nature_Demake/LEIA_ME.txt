@@ -1,0 +1,4 @@
+COLOQUE AQUI OS .blend DE NORMALIZACAO
+- Importe de 00_Packs_Raw
+- Aplique STYLE_BIBLE_DEMONS_WHIP_PS1.md
+- Exporte GLB para 01_Assets_Organizados

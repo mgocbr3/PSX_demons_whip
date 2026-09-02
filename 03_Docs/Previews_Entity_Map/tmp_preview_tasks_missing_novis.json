@@ -1,0 +1,102 @@
+[
+  {
+    "asset": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\03_Docs\\Previews_Entity_Map\\converted\\warrior_ability_anims_uncompressed._preview_novis.glb",
+    "out": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\03_Docs\\Previews_Entity_Map\\008_vanguard_warrior.png",
+    "entity": "Warrior"
+  },
+  {
+    "asset": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\03_Docs\\Previews_Entity_Map\\converted\\paladin_uncompressed._preview_novis.glb",
+    "out": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\03_Docs\\Previews_Entity_Map\\009_paladin_knight.png",
+    "entity": "Knight"
+  },
+  {
+    "asset": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\03_Docs\\Previews_Entity_Map\\converted\\mage_uncompressed._preview_novis.glb",
+    "out": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\03_Docs\\Previews_Entity_Map\\010_sorcerer_mage.png",
+    "entity": "Mage"
+  },
+  {
+    "asset": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\03_Docs\\Previews_Entity_Map\\converted\\rogue_uncompressed._preview_novis.glb",
+    "out": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\03_Docs\\Previews_Entity_Map\\011_assassin_rogue.png",
+    "entity": "Rogue"
+  },
+  {
+    "asset": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\03_Docs\\Previews_Entity_Map\\converted\\hunter_ability_anims_uncompressed._preview_novis.glb",
+    "out": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\03_Docs\\Previews_Entity_Map\\012_hunter_ranger.png",
+    "entity": "Ranger"
+  },
+  {
+    "asset": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\03_Docs\\Previews_Entity_Map\\converted\\druid_uncompressed._preview_novis.glb",
+    "out": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\03_Docs\\Previews_Entity_Map\\013_cleric_druid.png",
+    "entity": "Druid"
+  },
+  {
+    "asset": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\03_Docs\\Previews_Entity_Map\\converted\\paladin_uncompressed._preview_novis.glb",
+    "out": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\03_Docs\\Previews_Entity_Map\\014_inquisitor_paladin.png",
+    "entity": "Paladin"
+  },
+  {
+    "asset": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\03_Docs\\Previews_Entity_Map\\converted\\warlock_ability_anims_uncompressed._preview_novis.glb",
+    "out": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\03_Docs\\Previews_Entity_Map\\015_necromancer_warlock.png",
+    "entity": "Warlock"
+  },
+  {
+    "asset": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\03_Docs\\Previews_Entity_Map\\converted\\shaman_ability_anims_uncompressed._preview_novis.glb",
+    "out": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\03_Docs\\Previews_Entity_Map\\016_occultist_shaman.png",
+    "entity": "Shaman"
+  },
+  {
+    "asset": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\03_Docs\\Previews_Entity_Map\\converted\\barbarian_uncompressed._preview_novis.glb",
+    "out": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\03_Docs\\Previews_Entity_Map\\017_berserker_barbarian.png",
+    "entity": "Barbarian"
+  },
+  {
+    "asset": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\03_Docs\\Previews_Entity_Map\\converted\\goblin_uncompressed._preview_novis.glb",
+    "out": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\03_Docs\\Previews_Entity_Map\\018_dreg_goblin.png",
+    "entity": "Goblin"
+  },
+  {
+    "asset": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\03_Docs\\Previews_Entity_Map\\converted\\kobold_uncompressed._preview_novis.glb",
+    "out": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\03_Docs\\Previews_Entity_Map\\019_gnoll_kobold.png",
+    "entity": "Kobold"
+  },
+  {
+    "asset": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\03_Docs\\Previews_Entity_Map\\converted\\giant_uncompressed._preview_novis.glb",
+    "out": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\03_Docs\\Previews_Entity_Map\\027_golem_giant.png",
+    "entity": "Giant"
+  },
+  {
+    "asset": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\01_Assets_Organizados\\Enemies\\mushroom_pixie._preview_novis.glb",
+    "out": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\03_Docs\\Previews_Entity_Map\\031_fungal_zombie_mushroom_pixie.png",
+    "entity": "Mushroom Pixie"
+  },
+  {
+    "asset": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\03_Docs\\Previews_Entity_Map\\converted\\yumi_cat_uncompressed._preview_novis.glb",
+    "out": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\03_Docs\\Previews_Entity_Map\\039_hellcat_yumi_cat.png",
+    "entity": "Yumi Cat"
+  },
+  {
+    "asset": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\03_Docs\\Previews_Entity_Map\\converted\\grix_uncompressed._preview_novis.glb",
+    "out": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\03_Docs\\Previews_Entity_Map\\049_flesh_abomination_grix.png",
+    "entity": "Grix"
+  },
+  {
+    "asset": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\03_Docs\\Previews_Entity_Map\\converted\\grubjaw_uncompressed._preview_novis.glb",
+    "out": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\03_Docs\\Previews_Entity_Map\\050_carrion_eater_grubjaw.png",
+    "entity": "Grubjaw"
+  },
+  {
+    "asset": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\03_Docs\\Previews_Entity_Map\\converted\\drakemaw_raptor_uncompressed._preview_novis.glb",
+    "out": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\03_Docs\\Previews_Entity_Map\\076_wyvern_drake_raptor.png",
+    "entity": "Drake Raptor"
+  },
+  {
+    "asset": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\03_Docs\\Previews_Entity_Map\\converted\\stalkglider_snail_uncompressed._preview_novis.glb",
+    "out": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\03_Docs\\Previews_Entity_Map\\079_giant_beetle_snail.png",
+    "entity": "Snail"
+  },
+  {
+    "asset": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\03_Docs\\Previews_Entity_Map\\converted\\aether_hover_cycle_uncompressed._preview_novis.glb",
+    "out": "C:\\Users\\PCSP\\Documents\\doc\\PSX_demons_whip\\03_Docs\\Previews_Entity_Map\\083_chariot_hover_cycle.png",
+    "entity": "Hover Cycle"
+  }
+]

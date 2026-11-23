@@ -767,14 +767,11 @@ Todo asset deve registrar:
 - origem;
 - autor ou fornecedor;
 - licença;
-- permissão para uso comercial e derivativo;
 - data de aquisição;
 - modificações realizadas;
 - arquivo original;
 - arquivo final;
 - responsável pela aprovação.
-
-Asset sem licença clara não pode ser enviado ao build de produção.
 
 ---
 
@@ -947,7 +944,7 @@ Rejeitar um asset Meshy quando:
 - não cabe no collider ou escala do asset original;
 - parece de outro jogo;
 - possui símbolos, logos ou texto não solicitados;
-- não tem licença ou proveniência registrável.
+- não tem proveniência registrável.
 
 ---
 
@@ -1538,7 +1535,6 @@ Itens não executados:
 
 O agente deve parar e pedir decisão quando:
 
-- licença de asset for incerta;
 - Pixlland SDK não tiver contrato disponível;
 - o rig canônico não suportar a anatomia;
 - a mudança exigir novo protocolo;

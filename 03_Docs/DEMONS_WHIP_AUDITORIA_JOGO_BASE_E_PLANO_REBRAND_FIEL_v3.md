@@ -761,7 +761,6 @@ Criar `docs/rebrand/asset_manifest.csv` ou JSON equivalente com:
 ## 14.4 Pipeline
 
 1. Descobrir e registrar.
-2. Verificar licença.
 3. Capturar bounds, triângulos, materiais e texturas.
 4. Classificar por função.
 5. Aprovar silhouette target.
@@ -1142,12 +1141,12 @@ Reward com efeito persistente deve ser validado pelo servidor quando o SDK ofere
 - Grande parte de KayKit, Quaternius, Kenney, ambientCG e Poly Haven sob licenças redistribuíveis.
 - Assets marcados como `With the project only` podem permanecer dentro do fork conforme o registro, mas não podem ser extraídos como pack.
 
-## 21.2 O que precisa ser removido ou licenciado
+## 21.2 O que sai no rebrand
 
 - Nome World of ClaudeCraft.
 - Levy Street branding e logos.
-- CraftPix class ability icons sem licença própria.
-- Áudio @jamiecypher em uso comercial sem permissão.
+- CraftPix class ability icons.
+- Áudio @jamiecypher.
 - Store/prestige/commissioned art reservada.
 - Permission-only icons e recordings.
 - Third-party brand marks conforme necessidade.
@@ -1475,8 +1474,7 @@ Uma entrega só passa quando:
 - não introduz sistema paralelo;
 - não mistura estilos;
 - não perde informação jogável;
-- não quebra mobile;
-- não usa mídia sem licença.
+- não quebra mobile.
 
 ---
 
@@ -1520,7 +1518,6 @@ Uma entrega só passa quando:
 
 ## 25.4 Stop conditions
 
-- licença incerta;
 - API Pixlland ausente;
 - necessidade de protocolo novo;
 - rig incompatível;
